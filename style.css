@@ -13,8 +13,9 @@ body {
   width: 800px;
   height: 300px;
   border: solid;
-  overflow: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .book {
@@ -23,7 +24,8 @@ body {
   border: solid;
   width: 100%;
   height: fit-content;
-  display: flex; 
+  display: flex;
+  text-align: center;
   flex-direction: column;
 }
 
