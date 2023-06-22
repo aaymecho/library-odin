@@ -1,0 +1,40 @@
+.container {
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.shelve {
+  width: 800px;
+  height: 300px;
+  border: solid;
+  overflow: auto;
+  display: flex;
+}
+
+.book {
+  width: 1rem;
+  height: 1rem;
+  border: solid;
+  width: 100%;
+  height: fit-content;
+  display: flex; 
+  flex-direction: column;
+}
+
+.book button {
+  width: fit-content;
+  margin: auto;
+}
+
+form {
+  width: fit-content;
+  height: fit-content;
+  display: none;
+  flex-direction: column;
+}
