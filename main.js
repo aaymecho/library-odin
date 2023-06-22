@@ -81,10 +81,6 @@ submit.addEventListener('click', (evt) => {
   addBookToLibrary(newBook);
 });
 
-for (let i = 0; i < 5; i++) {
-  const newBook = new Book(`title${i}`, `author${i}`, i, false);
-  myLibrary.push(newBook);
-}
 
 displayBooks();
 
